@@ -29,4 +29,3 @@ print(x and y) #False
 print(x or y) #True
 print(not x) #False
 print(not y) #True
-print(a and b)
