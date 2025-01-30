@@ -12,3 +12,17 @@ print(type(div)) #<class 'float'>
 print(a//b)#returns co-efficient a/b=0.5. So it returns 0;
 print(b%a)# returns 0, which is the remainder
 print(a**3)#a to the power of 3 wich is 1,000,000
+
+#Relational operators
+#Always returns a boolean value
+print(a>b)#False
+print(b>a)#True
+print(a!=b)#True
+print(a==b)#False
+print(a<=b)#True
+print(a>=b)#False
+
+#Logical operators
+x=True
+y=False
+print(x and y)
