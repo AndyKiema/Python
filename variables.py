@@ -11,3 +11,8 @@ print(z)
 
 b,a=a,b #b has taken the value of a, a has taken the value of b
 print(a,b) #200 100 
+k=10
+a=20
+k,a=a,k
+print(a)
+print(k)

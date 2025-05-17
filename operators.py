@@ -7,7 +7,7 @@ print(sum)#300
 print(a*b)#20000
 print(b-a)#100
 div=b/a
-print(div)#2
+print(div)#2.0
 print(type(div)) #<class 'float'>
 print(a//b)#returns co-efficient a/b=0.5. So it returns 0;
 print(b%a)# returns 0, which is the remainder
