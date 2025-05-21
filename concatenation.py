@@ -1,7 +1,7 @@
 """print(10+10) #Valid
 print(10.5+20.6) #Valid
-print(10+20.6) #Valid
-print('welcome'+'to'+'python')#Valid"""
+print(10+20.6) #Valid"""
+print('welcome'+'to'+'python')#Valid welcometopython
 
 #True is 1
 #False is 0
