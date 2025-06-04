@@ -11,13 +11,13 @@ if num%2==0:
 else:
     print("Number is odd")"""    
 #Use ternary operators
-"""num=29
-print("Number is even") if num%2==0 else print("Number is odd")"""
+num=28
+print("Number is even") if num%2==0 else print("Number is odd")
 #Ternary operators with multiple statements
 """num=23
 {print("Hello"),print("python")} if num%2==0 else{print("Hey"),print("Java")}"""
 #Else if statements
-weekno=2
+weekno=3
 if weekno==1:
     print("Monday")
 elif weekno==2:
