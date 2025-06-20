@@ -39,3 +39,28 @@ g='_no'
 print(g.isidentifier()) #True
 k='Hey!'
 print(k.isidentifier()) #False bcoz it has an exclamation mark
+
+#islower() checks whether all letters in a string are in lowercase
+h='hello'
+print(h.islower()) #True
+i='Python'
+print(i.islower()) #False bcoz P is in uppercase
+l='welcome 2 python'
+print(l.islower()) #True. Numbers are ignored
+m='123'
+print(m.islower()) #False bcoz there are no letters
+n=' '
+print(n.islower()) #False bcoz there are no letters
+
+#isupper() checks whether all letters in a string are in uppercase
+print(h.isupper()) #False
+o='COMPUTER'
+print(o.isupper()) #True
+p='Coder'
+print(p.isupper()) #False bcoz oder is in lowercase
+
+#isspace() checks whether a string contains spaces
+l='welcome to python'
+print(l.isspace()) #False bcoz it contains letters
+m=' '
+print(m.isspace()) #True
