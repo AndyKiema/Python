@@ -19,6 +19,6 @@ s='welcome'
 sr=s[::-1]
 print(sr) #emoclew
 #Slicing method is used here
-#The first : means starting from the beginning
-#The second : means finishing at the end
+#The first : means starting from the beginning since starting point hasnt been specified
+#The second : means finishing at the end since ending point hasnt been specified
 # -1 means moving backwards
