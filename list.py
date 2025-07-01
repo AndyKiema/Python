@@ -39,3 +39,19 @@ print(list2)
 list2=['apple','banana','cherry']
 for i in list2:
     print(i)
+
+#Checking if item exists in list or not
+list2=['apple','banana','cherry']
+if 'apple' in list2:
+    print('Apple exists')
+else:
+    print("Apple doesn't exist")
+
+if 'mango' in list2:
+    print("Mango exists")
+else:
+    print("Mango doesn't exist")
+
+#Getting length of a list
+list2=['apple','banana','cherry']
+print(len(list2)) #3
