@@ -30,3 +30,12 @@ print(list5[1:-2]) #['frazier','foreman','liston']
 print(list5[-5:3]) #['frazier','foreman']
 
 #Change list item values
+list2=['apple','banana','cherry']
+print(list2)
+list2[0]='orange' #Change apple to orange
+print(list2)
+
+#Printing list items using a loop
+list2=['apple','banana','cherry']
+for i in list2:
+    print(i)
