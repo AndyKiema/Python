@@ -59,20 +59,29 @@ print(len(list2)) #3
 #Add items in a list
 list2=['apple','banana','cherry']
 list2.append('orange') #append() adds it to the end of the list
-print(list2)
+print(list2) #['apple', 'banana', 'cherry', 'orange']
 list2=['apple','banana','cherry']
 list2.insert(2,'orange') #insert() adds it to a particular position
-print(list2)
+print(list2) #['apple', 'banana', 'orange', 'cherry']
 
 #Remove items from a list
 list2=['apple','banana','cherry']
 list2.pop(0)
-print(list2)
+print(list2) #['banana', 'cherry']
 #OR
 list2=['apple','banana','cherry']
 del list2[0]
-print(list2)
+print(list2) #['banana', 'cherry']
 #OR
 list2=['apple','banana','cherry']
 list2.clear()
-print(list2)
+print(list2) #[]
+
+#Copy a list
+list2=['apple','banana','cherry']
+list3=list(list2)
+print(list3)
+#OR
+list2=['apple','banana','cherry']
+list4=list2.copy()
+print(list4)
