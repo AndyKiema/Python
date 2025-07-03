@@ -80,8 +80,23 @@ print(list2) #[]
 #Copy a list
 list2=['apple','banana','cherry']
 list3=list(list2)
-print(list3)
+print(list3) #['apple','banana','cherry']
 #OR
 list2=['apple','banana','cherry']
 list4=list2.copy()
-print(list4)
+print(list4) #['apple','banana','cherry']
+
+#Combine lists
+mylist=['a','b','c']
+mylist2=[1,2,3]
+mylist3=mylist+mylist2
+print(mylist3) #['a', 'b', 'c', 1, 2, 3]
+#OR USE A LOOP
+for i in mylist2:
+    mylist.append(i)
+print(mylist) #['a', 'b', 'c', 1, 2, 3]
+#OR USE extend()
+mylist=['a','b','c']
+mylist2=[1,2,3]
+mylist.extend(mylist2)
+print(mylist) #['a', 'b', 'c', 1, 2, 3]
