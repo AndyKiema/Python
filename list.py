@@ -55,3 +55,12 @@ else:
 #Getting length of a list
 list2=['apple','banana','cherry']
 print(len(list2)) #3
+
+#Add items in a list
+list2=['apple','banana','cherry']
+list2.append('orange') #append() adds it to the end of the list
+print(list2)
+
+list2=['apple','banana','cherry']
+list2.insert(2,'orange') #insert() adds it to a particular position
+print(list2)
