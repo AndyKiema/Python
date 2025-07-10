@@ -28,7 +28,7 @@ print(list5[1:5]) #['frazier','foreman','liston','patterson']
 print(list5[-4:-1]) #['foreman', 'liston', 'patterson'] When indexes are negative, the first one is one indexed, the second one is zero indexed
 print(list5[1:-2]) #['frazier','foreman','liston']
 print(list5[-5:3]) #['frazier','foreman']
-
+print(list5[-5:]) #['frazier', 'foreman', 'liston', 'patterson', 'louis']
 #Change list item values
 list2=['apple','banana','cherry']
 print(list2)

@@ -16,3 +16,9 @@ print(tuple1) #()
 #Printing range 
 mytuple=('apple','banana','cherry')
 print(mytuple[0:2]) #('apple', 'banana')
+print(mytuple[-2:]) #('banana', 'cherry')
+
+#Printing tuple items using a loop
+mytuple=('apple','banana','cherry')
+for i in mytuple:
+ print(i)
