@@ -34,3 +34,26 @@ else:
  mytuple3=('kale','spinach','cabbage')
  print(len(mytuple3)) #3
 
+#Add items in a tuple
+#Must be converted to a list first
+ mytuple3=('kale','spinach','cabbage')
+veglist=list(mytuple3)
+veglist.append('sprout')
+print(veglist) #['kale', 'spinach', 'cabbage', 'sprout']
+mytuple3=tuple(veglist)
+print(mytuple3)
+#OR
+mytuple3=('kale','spinach','cabbage')
+veglist=list(mytuple3)
+veglist.insert(2,'sprout')
+print(veglist) #['kale', 'spinach', 'sprout', 'cabbage']
+mytuple3=tuple(veglist)
+print(mytuple3) #('kale', 'spinach', 'sprout', 'cabbage')
+
+#Remove items from a tuple
+mytuple3=('kale','spinach','cabbage')
+veglist=list(mytuple3)
+veglist.pop(2)
+print(veglist) #['kale', 'spinach']
+mytuple3=tuple(veglist)
+print(mytuple3) #('kale', 'spinach')
