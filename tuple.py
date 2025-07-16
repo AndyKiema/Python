@@ -57,3 +57,8 @@ veglist.pop(2)
 print(veglist) #['kale', 'spinach']
 mytuple3=tuple(veglist)
 print(mytuple3) #('kale', 'spinach')
+
+#Copy a tuple
+mytuple3=('kale','spinach','cabbage')
+mytuple4=tuple(mytuple3)
+print(mytuple4)
