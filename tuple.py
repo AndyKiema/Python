@@ -61,4 +61,10 @@ print(mytuple3) #('kale', 'spinach')
 #Copy a tuple
 mytuple3=('kale','spinach','cabbage')
 mytuple4=tuple(mytuple3)
-print(mytuple4)
+print(mytuple4) #('kale','spinach','cabbage')
+
+#Combine tuples
+mytuple3=('kale','spinach','cabbage')
+mytuple4=('orange','banana','strawberry')
+mytuple5=mytuple3+mytuple4
+print(mytuple5) #('kale', 'spinach', 'cabbage', 'orange', 'banana', 'strawberry')
