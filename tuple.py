@@ -29,3 +29,8 @@ if 'brocolli' in mytuple3:
  print('brocolli exists')
 else:
  print('brocolli is not there')
+
+ #Getting length of a tuple
+ mytuple3=('kale','spinach','cabbage')
+ print(len(mytuple3)) #3
+
