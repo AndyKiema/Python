@@ -22,3 +22,10 @@ print(mytuple[-2:]) #('banana', 'cherry')
 mytuple=('apple','banana','cherry')
 for i in mytuple:
  print(i)
+
+ #Checking if item exists in tuple or not
+mytuple3=('kale','spinach','cabbage')
+if 'brocolli' in mytuple3:
+ print('brocolli exists')
+else:
+ print('brocolli is not there')
