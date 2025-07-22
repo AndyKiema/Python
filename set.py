@@ -1,5 +1,6 @@
 #A list is a collection that is unordered and unindexed
 #Written in curly brackets({})
+#It is mutable
 
 #Creating a set
 myset={"apple","banana","cherry"}
@@ -26,3 +27,7 @@ myset.add('orange')
 print(myset) #{'banana', 'orange', 'apple', 'cherry'}
 myset.update(['mango','lemon','strawberry'])
 print(myset) #{'orange', 'lemon', 'banana', 'apple', 'strawberry', 'cherry', 'mango'}
+
+#Find number of items in a set
+myset={"apple","banana","cherry"}
+print(len(myset)) #3
