@@ -44,3 +44,12 @@ myset.discard('banana')
 print(myset) #{'cherry', 'apple'}
 myset.discard('grape')
 print(myset) #{'apple', 'cherry'} The set will still be printed. No error will be thrown. That's the difference between discard and remove
+
+#Clear all items from a set
+myset={"apple","banana","cherry"}
+myset.clear()
+print(myset) #set()
+#Delete the set itself
+myset={"apple","banana","cherry"}
+del myset
+print(myset) #THROWS ERROR
