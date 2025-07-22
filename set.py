@@ -17,3 +17,12 @@ else:
 #OR
 print('banana' in myset) #True
 print('mango' in myset) #False
+
+#Adding items to set
+#add()- add a single item
+#update()- add multiple items
+myset={"apple","banana","cherry"}
+myset.add('orange')
+print(myset) #{'banana', 'orange', 'apple', 'cherry'}
+myset.update(['mango','lemon','strawberry'])
+print(myset) #{'orange', 'lemon', 'banana', 'apple', 'strawberry', 'cherry', 'mango'}
