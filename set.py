@@ -31,3 +31,16 @@ print(myset) #{'orange', 'lemon', 'banana', 'apple', 'strawberry', 'cherry', 'ma
 #Find number of items in a set
 myset={"apple","banana","cherry"}
 print(len(myset)) #3
+
+#Remove item from a set
+myset={"apple","banana","cherry"}
+myset.remove('banana')
+print(myset) #{'apple', 'cherry'}
+# myset.remove('grape') 
+# print(myset) Returns error
+#OR
+myset={"apple","banana","cherry"}
+myset.discard('banana')
+print(myset) #{'cherry', 'apple'}
+myset.discard('grape')
+print(myset) #{'apple', 'cherry'} The set will still be printed. No error will be thrown. That's the difference between discard and remove
