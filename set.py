@@ -52,4 +52,14 @@ print(myset) #set()
 #Delete the set itself
 myset={"apple","banana","cherry"}
 del myset
-print(myset) #THROWS ERROR
+#print(myset) #THROWS ERROR
+
+#Joining two sets
+myset1={'a','b','c'}
+myset2={1, 2, 3}
+myset3=myset1.union(myset2)
+print(myset3) #{1, 2, 'a', 3, 'c', 'b'} Take note of how order has not been maintained
+print(myset1) #{'a', 'c', 'b'}
+#OR
+myset1.update(myset2)
+print(myset1) #{1, 2, 3, 'a', 'c', 'b'}
