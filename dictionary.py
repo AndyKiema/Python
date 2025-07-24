@@ -61,3 +61,11 @@ else:
 #OR
 print('brand' in mydict) #True
 print('country' in mydict) #False
+
+#Find number of items in a dictionary
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+print(len(mydict)) #3
