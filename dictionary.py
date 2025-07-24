@@ -41,3 +41,23 @@ for i in mydict:
 #Read keys and values
 for x,y in mydict.items():
     print(x,y) #brand Buick model Enclave year 2021
+
+#Check if key exist in dictionary
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+if 'brand' in mydict:
+    print('Brand exists')
+else:
+    print('Brand doesnt exist')
+    #Brand exists
+if 'country' in mydict:
+    print('Country exists')
+else:
+    print('Country doesnt exist')
+    #Country doesnt exist
+#OR
+print('brand' in mydict) #True
+print('country' in mydict) #False
