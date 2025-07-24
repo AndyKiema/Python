@@ -16,3 +16,12 @@ print(mydict['year']) #2021
 #OR
 x=mydict.get('brand') 
 print(x) #Buick
+
+#Change values in a dictionary
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+mydict['year']=2022
+print(mydict) #{'brand': 'Buick', 'model': 'Enclave', 'year': 2022}
