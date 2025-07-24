@@ -25,3 +25,19 @@ mydict={
 }
 mydict['year']=2022
 print(mydict) #{'brand': 'Buick', 'model': 'Enclave', 'year': 2022}
+
+#Reading items from a dictionary using a loop
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+#Read keys only
+for i in mydict:
+    print(i) #brand model year
+#Read values only
+for i in mydict:
+    print(mydict[i]) #Buick Enclave 2021
+#Read keys and values
+for x,y in mydict.items():
+    print(x,y) #brand Buick model Enclave year 2021
