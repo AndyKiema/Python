@@ -78,3 +78,20 @@ mydict={
 }
 mydict['color']='red'
 print(mydict) #{'brand': 'Buick', 'model': 'Enclave', 'year': 2021, 'color': 'red'}
+
+#Remove items from a dictionary
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+mydict.pop('year')
+print(mydict) #{'brand': 'Buick', 'model': 'Enclave'}
+#OR
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+del mydict['year'] #
+print(mydict) #{'brand': 'Buick', 'model': 'Enclave'}
