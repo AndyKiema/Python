@@ -113,3 +113,20 @@ mydict={
 }
 mydict.clear()
 print(mydict) #{}
+
+#Copy a dictionary
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+mydict2=mydict
+print(mydict2) #{'brand': 'Buick', 'model': 'Enclave', 'year': 2021}
+#OR
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+mydict3=mydict.copy()
+print(mydict3) #{'brand': 'Buick', 'model': 'Enclave', 'year': 2021}
