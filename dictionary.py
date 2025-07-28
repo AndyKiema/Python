@@ -95,3 +95,21 @@ mydict={
 }
 del mydict['year'] #
 print(mydict) #{'brand': 'Buick', 'model': 'Enclave'}
+
+#Delete entire dictionary
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+del mydict
+#print(mydict) Gives name error
+
+#Clear items in a dictionary
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+mydict.clear()
+print(mydict) #{}
