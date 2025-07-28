@@ -69,3 +69,12 @@ mydict={
     'year': 2021
 }
 print(len(mydict)) #3
+
+#Add items to a dictionary
+mydict={
+    'brand':'Buick',
+    'model':'Enclave',
+    'year': 2021
+}
+mydict['color']='red'
+print(mydict) #{'brand': 'Buick', 'model': 'Enclave', 'year': 2021, 'color': 'red'}
