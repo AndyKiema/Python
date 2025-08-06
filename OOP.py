@@ -83,3 +83,15 @@ class Employee:
 
 em1=Employee('Andrew','$10,000',3672)
 em1.display() #Andrew $10,000 3672
+
+#str constructor- ONLY ONE STRING CAN BE RETURNED
+class Employee1:
+  def __init__(self,name,salary,id):
+    self.name=name
+    self.salary=salary
+    self.id=id
+  def __str__(self):
+    return(self.name)
+    return(self.salary)
+e2=Employee1('Andrew','$10,000',3672)
+print(e2) #Andrew
