@@ -13,7 +13,7 @@
 #Instance methods can only be accessed through objects
 #Static methods can be accessed through both the class and the objects
 
-class myClass:
+"""class myClass:
   def m1(self):
     print('This is an instance method')
   @staticmethod
@@ -24,7 +24,7 @@ myClass.m2(3) #3
 #myClass.m1() #Error
 mc2=myClass()
 mc2.m1() #This is an instance method
-mc2.m2(100) #100
+mc2.m2(100) #100"""
 
 #Class variables
 """class newClass:
@@ -57,3 +57,29 @@ class newClass:
 
 nc=newClass()
 nc.pr()
+
+class mySecond:
+  def __init__(self):
+    print("This is a constructor")
+  def m3(self):
+    print("Hello")
+
+mySecond() #This is a constructor
+
+class myClass:
+  def __init__(self,name):
+    self.name=name
+    print('My name is',name)
+myc=myClass('Jeff') #My name is Jeff
+print(myc.name) #Jeff
+
+class Employee:
+  def __init__(self,name,salary,id):
+    self.name=name
+    self.salary=salary
+    self.id=id
+  def display(self):
+    print(self.name,self.salary,self.id)
+
+em1=Employee('Andrew','$10,000',3672)
+em1.display() #Andrew $10,000 3672
