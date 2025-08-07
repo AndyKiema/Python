@@ -25,7 +25,7 @@ d1.m3() #10 20
 d1.m4() #300
 
 #Mutli-level inheritance
-class E:
+"""class E:
   c,d=1,2
   def m5(self):
     print(self.c,self.d)
@@ -48,4 +48,30 @@ g1.m7() #50 60
 f1=F()
 f1.m5() #1 2
 f1.m6() #100 200
-f1.m7() #Error bcoz class F doesnt have m7()
+#f1.m7()""" #Error bcoz class F doesnt have m7()
+
+#Hierarchy inheritance
+class E:
+  c,d=1,2
+  def m5(self):
+    print(self.c,self.d)
+
+class F(E):
+  i,j=100,200
+  def m6(self):
+    print(self.i,self.j)
+
+class G(E):
+  k,l=50,60
+  def m7(self):
+    print(self.k,self.l)
+
+g1=G()
+g1.m5() #1 2
+#g1.m6() #Error bcoz class G has no relationship with class F
+g1.m7() #50 60
+
+f1=F()
+f1.m5() #1 2
+f1.m6() #100 200
+f1.m7() #Error bcoz class F had no relationship with class G
