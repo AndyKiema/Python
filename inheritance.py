@@ -1,5 +1,5 @@
 #Single inheritance
-class A:
+"""class A:
   def m1(self):
     print('This is m1 method from class A')
 class B(A):
@@ -22,7 +22,7 @@ class D(C):
 
 d1=D()
 d1.m3() #10 20
-d1.m4() #300
+d1.m4() #300"""
 
 #Mutli-level inheritance
 """class E:
@@ -51,7 +51,7 @@ f1.m6() #100 200
 #f1.m7()""" #Error bcoz class F doesnt have m7()
 
 #Hierarchy inheritance
-class E:
+"""class E:
   c,d=1,2
   def m5(self):
     print(self.c,self.d)
@@ -74,4 +74,30 @@ g1.m7() #50 60
 f1=F()
 f1.m5() #1 2
 f1.m6() #100 200
-f1.m7() #Error bcoz class F had no relationship with class G
+f1.m7() #Error bcoz class F had no relationship with class G"""
+
+#Multiple inheritance
+class E:
+  c,d=1,2
+  def m5(self):
+    print(self.c,self.d)
+
+class F():
+  i,j=100,200
+  def m6(self):
+    print(self.i,self.j)
+    
+
+class G(E,F):
+  k,l=50,60
+  def m7(self):
+    print(self.k,self.l)
+    print(self.i,self.j)
+    print(self.c,self.d)
+
+g1=G()
+g1.m5() #1 2
+g1.m6() #100 200
+g1.m7() #50 60 100 200 1 2
+
+
