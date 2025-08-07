@@ -75,7 +75,7 @@ print(myc.name) #Jeff
 
 class Employee:
   def __init__(self,name,salary,id):
-    self.name=name
+    self.name=name #Convert it to a class variable
     self.salary=salary
     self.id=id
   def display(self):
@@ -95,3 +95,6 @@ class Employee1:
     return(self.salary)
 e2=Employee1('Andrew','$10,000',3672)
 print(e2) #Andrew
+
+
+
